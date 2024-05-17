@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Overlock SC", sans-serif;
+}
+
+.navbar-nav li a{
+    color:white;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin:30px;
+    padding:20px;
+   
+}
+.navbar-nav  li a:hover{
+    color:orange;
+
+}
+.nav-right a{
+    font-size: 30px;
+    text-decoration: none;
+    color:white;
+    margin:10px;
+    padding:20px;
+    width: 50px;
+    height:50px;
+    border-radius: 50px;
+    background-color: rgb(188, 188, 209);
+    opacity: 0.5;
+
+}
+.nav-right a:hover{
+    background-color: beige;
+    color:orange;
+    opacity: 1;
+}
+#header{
+     width:100%;
+     height: 100vh;
+     background-color: black;
+    
+}
+.card-design{
+    width:600px;
+    display:flex;
+}
+
+.container a img{
+    margin-top:40px;
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    background-color: rgb(244, 142, 8);
+    margin-bottom: 20px;
+    display:block;
+    opacity: 1;
+  
+}
+.some-image img {
+
+  margin-top:70px;
+  float:right;
+  width:160%;
+  height:110%;
+
+  
+}
+.head{
+    margin-top:70px ;
+}
+.head  h1{
+    color:white;
+}
+.head  h1 span{
+    color:orange;
+}
+.head p{
+    font-size:20px;
+    color:white;
+}
+.head h5{
+    color:white;
+}
+.head h5 span{
+    color:orange;
+
+}
+.hero-btn .btn{
+    font-size: 20px;
+    color:orange;
+    text-decoration: none;
+    padding:10px;
+}
+.hero-btn .btn:hover{
+    color:white;
+}
